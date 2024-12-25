@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.22/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        document.getElementById('home').addEventListener('click',function(){    
+            window.location.href='index.html';
+            
+        })
+    </script>
+    
+</head>
+<body>
+    <section>
+        <section class="navsec">
+            <div class="navbar bg-[#F9F7F3] lg:py-7 px-4">
+                <div class="navbar-start">
+                    <a id="home" class="btn btn-ghost font-extrabold bg-[#B4F461]">Home</a>
+                </div>
+                <div class="navbar-center lg:gap-3 lg:flex items-center">
+                    <img class="h-8 w-auto" src="assets/logo.png" alt="Logo">
+                    <p class="lg:text-xl hidden lg:block font-semibold ml-2">Donate Bangladesh</p>
+                </div>
+                <div class="navbar-end gap-3 items-center">
+                    <img class="h-6 w-6" src="assets/coin.png" alt="Coin">
+                    <p class="text-sm font-medium"><span id="total-balance">55000</span> BDT</p>
+                </div>
+            </div>
+        </section>
+    </section>
+    <section>
+        <h1 class="text-5xl font-extrabold py-4">Important FAQ</h1>
+        <div class="collapse collapse-arrow bg-base-200">
+            <input type="radio" name="my-accordion-2" checked="checked" />
+            <div class="collapse-title  text-xl font-medium">What is the Document object model(DOM)?</div>
+            <div class="collapse-content">
+              <p>Write your ans here</p>
+            </div>
+          </div>
+          <div class="collapse collapse-arrow bg-base-200">
+            <input type="radio" name="my-accordion-2" />
+            <div class="collapse-title text-xl font-medium">How do you select an element from the DOM?</div>
+            <div class="collapse-content">
+              <p>Write your ans here</p>
+            </div>
+          </div>
+          <div class="collapse collapse-arrow bg-base-200">
+            <input type="radio" name="my-accordion-2" />
+            <div class="collapse-title text-xl font-medium">What is event delegation in the context of the dom?</div>
+            <div class="collapse-content">
+              <p>Write your ans here</p>
+            </div>
+          </div>
+          <div class="collapse collapse-arrow bg-base-200">
+            <input type="radio" name="my-accordion-2" />
+            <div class="collapse-title text-xl font-medium">How do you manipulate an elements attribute and styles using the dom</div>
+            <div class="collapse-content">
+              <p>Write your ans here</p>
+            </div>
+          </div>
+    </section>
+       
+</body>
+</html>
